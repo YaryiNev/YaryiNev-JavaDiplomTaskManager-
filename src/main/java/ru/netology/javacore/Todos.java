@@ -3,7 +3,7 @@ package ru.netology.javacore;
 import java.util.*;
 
 public class Todos {
-    private ArrayList<String> taskList = new ArrayList<>();
+    private List<String> taskList = new ArrayList<>();
 
     public void addTask(String task) {
         if (task == null) {
